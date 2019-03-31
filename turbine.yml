@@ -1,5 +1,5 @@
 turbine:
-  appConfig: catalogapi,catalogweb
+  appConfig: catalogapi,catalogweb,orderapi,orderweb
   aggregator:
     clusterConfig: default
   clusterNameExpression: new String("default")
